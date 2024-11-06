@@ -2,8 +2,8 @@
 
 int main() {
     
-    char NomeFile1[] = {"TestFiles/testo1.txt"};
-    char *NomeFile2 = "TestFiles/testo2.txt";
+    char NomeFile1[] = {"TestFiles/testo.txt"};
+    char *NomeFile2 = "TestFiles/testocopia.txt";
     int car;
     
     FILE* pfile1 = fopen(NomeFile1, "r");
