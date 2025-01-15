@@ -7,6 +7,7 @@ class Rettangolo {
         double Base;
 
     public:
+
         void setAltezza(double x){ Altezza = x;};
         void setBase(double y){Base = y;};
         double getAltezza(){return Altezza;}
@@ -15,11 +16,14 @@ class Rettangolo {
             double perimetro = 2*(Base + Altezza);
             return perimetro;
         }
-        void calcolaBase();
+
+        void calcolaArea();
         void stampa();
 };
 
 int main (){
+
+
     int x,y;
     Rettangolo s1,s2;
 
@@ -35,7 +39,7 @@ int main (){
     s1.getAltezza();
     cout << "La base e'" << base;
 
-    s1.calcolaPerimetro();
+   do s1.calcolaPerimetro();
 
    
 }
