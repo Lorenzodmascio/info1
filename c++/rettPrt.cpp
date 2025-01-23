@@ -18,7 +18,7 @@ public:
     ~Rettangolo() {
         std::cout << "Hai chiamato la funzione distruttrice" << std::endl;
     }
-
+ 
    
     void setBase(double base) {
         this->base = base;
