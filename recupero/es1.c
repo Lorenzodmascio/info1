@@ -46,9 +46,9 @@ int main()
     printf("eta nel 2025: %d\n",eta);
 
     topolino.cognome= "rossi";
-    strcpy= topolino.nascita.giorno = pippo.nascita.giorno;
+    topolino.nascita.giorno = pippo.nascita.giorno;
     strcpy= topolino.nascita.mese = pippo.nascita.mese;
-    strcpy= topolino.nascita.anno = pippo.nascita.anno;
+    topolino.nascita.anno = pippo.nascita.anno;
 
      printf("nascita\n: %d %s %d", topolino.nascita.giorno,topolino.nascita.mese,topolino.nascita.anno);
 }
